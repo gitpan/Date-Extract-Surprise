@@ -1,0 +1,44 @@
+---
+abstract: 'extract probable dates from strings *with surprises*'
+author:
+  - 'Stephen R. Scaffidi <sscaffidi@cpan.org>'
+build_requires:
+  Data::Dumper: 0
+  Module::Build: 0.3601
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.102160'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Date-Extract-Surprise
+provides:
+  Date::Extract::Surprise:
+    file: lib/Date/Extract/Surprise.pm
+    version: 0.001
+requires:
+  Carp: 0
+  DateTime::Format::Flexible: 0
+  Exporter::Easy: 0
+  Scalar::Util: 0
+  perl: 5.006
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Date-Extract-Surprise
+  homepage: http://search.cpan.org/dist/Date-Extract-Surprise/
+version: 0.001
+x_BuiltWith:
+  modules:
+    Carp: 1.08
+    Data::Dumper: 2.126
+    DateTime::Format::Flexible: 0.15
+    Exporter::Easy: 0.16
+    ExtUtils::MakeMaker: 6.56
+    Module::Build: 0.3607
+    Scalar::Util: 1.23
+    Test::More: 0.94
+  perl: 5.010000
+  platform: linux
