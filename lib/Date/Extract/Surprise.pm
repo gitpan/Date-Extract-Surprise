@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Date::Extract::Surprise;
 BEGIN {
-  $Date::Extract::Surprise::VERSION = '0.001';
+  $Date::Extract::Surprise::VERSION = '0.002';
 }
 BEGIN {
   $Date::Extract::Surprise::DIST = 'Date-Extract-Surprise';
@@ -121,7 +121,7 @@ Date::Extract::Surprise - extract probable dates from strings *with surprises*
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

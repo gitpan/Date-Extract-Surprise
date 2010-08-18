@@ -19,7 +19,7 @@ name: Date-Extract-Surprise
 provides:
   Date::Extract::Surprise:
     file: lib/Date/Extract/Surprise.pm
-    version: 0.001
+    version: 0.002
 requires:
   Carp: 0
   DateTime::Format::Flexible: 0
@@ -29,7 +29,7 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Date-Extract-Surprise
   homepage: http://search.cpan.org/dist/Date-Extract-Surprise/
-version: 0.001
+version: 0.002
 x_BuiltWith:
   modules:
     Carp: 1.08

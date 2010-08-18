@@ -44,7 +44,7 @@
    "provides" : {
       "Date::Extract::Surprise" : {
          "file" : "lib/Date/Extract/Surprise.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -55,7 +55,7 @@
       },
       "homepage" : "http://search.cpan.org/dist/Date-Extract-Surprise/"
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.08",
