@@ -26,11 +26,11 @@ my %WriteMakefileArgs = (
   'NAME' => 'Date::Extract::Surprise',
   'PREREQ_PM' => {
     'Carp' => '0',
-    'DateTime::Format::Flexible' => '0',
+    'DateTime::Format::Flexible' => '0.10',
     'Exporter::Easy' => '0',
     'Scalar::Util' => '0'
   },
-  'VERSION' => '0.002',
+  'VERSION' => '0.006',
   'test' => {
     'TESTS' => 't/*.t'
   }

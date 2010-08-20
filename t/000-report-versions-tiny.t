@@ -50,7 +50,7 @@ sub pmver {
 
 eval { $v .= pmver('Carp','any version') };
 eval { $v .= pmver('Data::Dumper','any version') };
-eval { $v .= pmver('DateTime::Format::Flexible','any version') };
+eval { $v .= pmver('DateTime::Format::Flexible','0.10') };
 eval { $v .= pmver('Exporter::Easy','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.31') };
 eval { $v .= pmver('Module::Build','0.3601') };

@@ -20,14 +20,14 @@ my %module_build_args = (
     'Stephen R. Scaffidi <sscaffidi@cpan.org>'
   ],
   'dist_name' => 'Date-Extract-Surprise',
-  'dist_version' => '0.002',
+  'dist_version' => '0.006',
   'license' => 'perl',
   'module_name' => 'Date::Extract::Surprise',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
     'Carp' => '0',
-    'DateTime::Format::Flexible' => '0',
+    'DateTime::Format::Flexible' => '0.10',
     'Exporter::Easy' => '0',
     'Scalar::Util' => '0',
     'perl' => '5.006'
